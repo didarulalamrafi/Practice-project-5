@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(209, 210, 212);
+}
+.all{
+    width: 800px;
+    height: 350px;
+    background-color: rgb(255, 254, 254);
+    box-shadow: inset;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding: 30px;
+}
+.btn{
+    height: 30px;
+    width: 100px;
+    background-color: green;
+    border-radius: 3px;
+    text-align: center;
+    align-items: center;
+    padding: 5px ;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+table thead{
+    text-align: left;
+    color: rgb(74, 76, 78);
+}
+table{
+    border-collapse: collapse;
+    margin: 40px 40px;
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 90%;
+    height: 100%;
+    
+}
+span{
+    font-weight: 700;
+}
+table, tr {
+    border-bottom: 2px solid rgb(187, 184, 184);
+    padding: 100px;
+}
+table, td{
+    padding: 8px 0px;
+}
+.profile{
+    background-color: rgb(214, 209, 209);
+    border-radius: 50%;
+    padding: 10px 8px;
+}
+button{
+    background-color: white;
+    border-radius:99px;
+    padding: 5px 15px;
+    font-weight: 600;
+}
+.btn1{
+    border-color: green;
+    color: green;
+}
+.btn2{
+    border-color: blue;
+    color: blue;
+}
+.btn3{
+    border-color: gray;
+    color: grey;
+}
